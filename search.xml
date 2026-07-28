@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Cocos碰撞问题</title>
+      <link href="/2026/07/28/Cocos%E7%A2%B0%E6%92%9E%E9%97%AE%E9%A2%98/"/>
+      <url>/2026/07/28/Cocos%E7%A2%B0%E6%92%9E%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://cloud.tencent.cn/developer/article/2495452">小游戏案例</a><br>已完成主角的左右移动＋跳跃，现在遇到J_Rabit和star之间的碰撞问题，没有碰撞绿色线框，疑似onLoad没有启动<br>修改J_Rabit和star的ts代码后，出现绿色线框，但J_Rabit的线框没有跟随移动，增加RigidBody改Type为Kinematic后跟随移动</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇博客</title>
       <link href="/2026/07/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2026/07/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>

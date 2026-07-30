@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>学习Cocos第一天</title>
+      <link href="/2026/07/30/%E5%AD%A6%E4%B9%A0Cocos%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+      <url>/2026/07/30/%E5%AD%A6%E4%B9%A0Cocos%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="学习打砖块案例"><a href="#学习打砖块案例" class="headerlink" title="学习打砖块案例"></a>学习打砖块案例</h1><p>限制物体穿透，需要给物体添加刚体组件和碰撞器组件</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>让我们来看一看小姜姜~</title>
       <link href="/2026/07/28/%E5%B0%8F%E5%A7%9C%E5%A7%9C/"/>
       <url>/2026/07/28/%E5%B0%8F%E5%A7%9C%E5%A7%9C/</url>

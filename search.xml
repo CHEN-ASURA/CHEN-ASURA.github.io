@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>2026年8月5日 电脑黑屏解决</title>
+      <link href="/2026/08/05/2026%E5%B9%B48%E6%9C%885%E6%97%A5-%E7%94%B5%E8%84%91%E9%BB%91%E5%B1%8F%E8%A7%A3%E5%86%B3/"/>
+      <url>/2026/08/05/2026%E5%B9%B48%E6%9C%885%E6%97%A5-%E7%94%B5%E8%84%91%E9%BB%91%E5%B1%8F%E8%A7%A3%E5%86%B3/</url>
+      
+        <content type="html"><![CDATA[<p>问题：电脑睡眠开机，亮度调节不了，关机重启后导致电脑黑屏<br>事故过程：电脑睡眠开机后，发现屏幕亮度特别亮，拖动亮度条和按快捷键（Fn +F5&#x2F;F6）亮度没有反应，依旧这么亮，于是我接下来把开着的页面都关掉，关机，之后再开机，输入密码之后电脑黑屏，反复两次仍然一输入密码就黑屏。<br>解决过程：deepseek给出解决方案，反复重启三次，进入蓝色恢复界面，然后点 “疑难解答”&gt;“高级选项” &gt;“启动设置”&gt; “重启”，按数字键 4 。<br>进入安全模式后，右键“此电脑” &gt; “管理” &gt; “设备管理器”。<br>展开“显示适配器”，右键点击显卡（NVIDIA），选择“卸载设备”<br>（此时重启电脑，依旧没解决，再次进入安全模式，重复上面删除NVIDIA驱动操作）<br>接下来在cmd里面输入了这行命令（deepseek说没啥用）<br>dism &#x2F;online &#x2F;disable-feature &#x2F;featurename:Microsoft-Windows-Subsystem-Linux<br>回车后，不需要立即重新启动计算机<br>pnputil &#x2F;enum-devices &#x2F;class Display 用这个命令，找驱动硬件，发现已经被我手动删掉了<br>最后输入进行重启：shutdown &#x2F;r &#x2F;t 0<br>界面出现更新后，又黑屏了（也是眼前又一黑）<br>结果按快捷键把屏幕调亮了（也是柳暗花明了）<br>或许应该在每一个步骤试一下能不能调节亮度，另外问题迟迟没解决的时候，不要浮躁，不要冲动</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>学习Cocos</title>
       <link href="/2026/07/30/%E5%AD%A6%E4%B9%A0Cocos%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
       <url>/2026/07/30/%E5%AD%A6%E4%B9%A0Cocos%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
